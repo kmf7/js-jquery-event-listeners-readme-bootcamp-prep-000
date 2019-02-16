@@ -5,7 +5,7 @@ function getIt(){
 }
 function frameIt(){
   $('img').on('load', function(){
-    $('img').preppend('.tasty');
+    $('img').prepend('.tasty');
   });
 }
 function pressIt(){
